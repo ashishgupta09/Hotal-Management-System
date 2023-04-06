@@ -1,0 +1,26 @@
+
+ .container{
+    background-color: #1eebeb;
+    border-radius: 0%;
+    background-position: center;
+}
+
+.content{
+    max-width: 500px;
+    margin: auto;
+    background-color: aliceblue;
+    padding:5% 5%;
+    border-radius: 2%;
+    box-sizing: border-box;
+    background-color: rgb(66, 241, 241);
+}
+
+button{
+    background-color: black;
+    color:#fff;
+
+}
+
+button:hover{
+    color: #fff;
+} 

@@ -1,0 +1,13 @@
+<div class="container" mt-5 mb-5>
+ <div class="row">
+   <div class="col-lg-4 mb-4" *ngFor="let rm of roomData">
+    <div class="roombox">
+        <img src="{{rm.roomImg}}">
+        <h1>{{rm.roomName}}</h1>
+        <p>{{rm.roomDetails}}</p>
+        <p>{{rm.roomPrice | currency:'INR'}}</p>
+        <a class="box" routerLink="/menupage">Book</a>
+    </div>
+   </div>
+ </div>
+</div>

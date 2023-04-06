@@ -1,0 +1,51 @@
+
+
+
+<div class="banner">
+    <div class="benner-context">
+    <h1>Stay With Joy<br>
+    Visit Again Hope This is The Best<br>
+   <a routerLink="menu" routerLinkActive="active">Book Now<i class="bi bi-arrow-right"></i></a>
+   </h1> 
+ </div>
+</div >
+<div class="container mt-5 mb-4">
+<h1 class="text-center">how to get your room</h1>
+<diV class="row">
+    <div class="col-lg-4 mt-2">
+        <div class="stepbox">
+        <h1>1</h1>
+        <p>Click</p>
+    </div>
+    </div>
+    <div class="col-lg-4 mt-2">
+        <div class="stepbox">
+        <h1>2</h1>
+        <p>fill details</p>
+    </div>
+    </div>
+    <div class="col-lg-4 mt-2">
+        <div class="stepbox">
+        <h1>3</h1>
+        <p>book room</p>
+    </div>
+    </div>
+
+</diV>
+</div>
+
+
+<div class="container mt-4 mt-4">
+    <h1 class="text-center mt-3">Custemers <span class="highlight">Favroite room</span></h1>
+    <div class="row">
+        <div class="col-lg-3" *ngFor="let rm of roomData">
+            <div class="roombox">
+            <img src="{{rm.roomImg}}">
+            <h1>{{rm.roomName}}</h1>
+            <p>{{rm.roomPrice | currency:'INR'}}</p>
+            </div>
+        </div>
+    </div>
+    <a routerLink="/menu" class="viewall">view all</a>
+</div>
+

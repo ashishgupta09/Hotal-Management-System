@@ -1,0 +1,26 @@
+.container{
+    border-radius: 0%;
+    background-position: center;
+}
+
+.context{
+    max-width: 500px;
+    margin: auto;
+    background-color:#fff;
+    padding:8% 8%;
+    border-radius: 1%;
+    box-sizing: border-box;
+    background-color: rgb(66, 241, 241);
+   
+}
+h1{
+    text-align: center;
+}
+
+button:hover{
+    color: #fff;
+}
+
+
+
+
